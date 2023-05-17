@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tabla de Frecuencia</title>
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <h2 class="title1">Tabla de Frecuencias</h2>
+
+    <div class="form1">
+            <p  class="cantVariables" >Cantidad de Variables</p>
+            <input type="number" id="cantVariables" min="1" placeholder="1" />
+    </div>
+    <div class="form1">
+        <button onclick=' generarTabla(); ' >Generar Tabla</button>
+    </div>
+    <br>
+    <div class="form1">
+        <input type="checkbox" name="checkMuestral" id="" value="" class="only-one" > Muestral
+        <input type="checkbox" name="checkPoblacional" id="" value="" class="only-one" > Poblacional
+    </div>
+    <br>
+    <div class="divTabla" id="contenedorTabla">
+        <!-- TABLA GENERADA -->
+    </div>
+    <br>
+    <div class="div-calcular" >
+        <button  onclick='calcular()' id="btn-calcular"> Calcular </button>
+    </div>
+</body>
+</html>

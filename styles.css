@@ -1,0 +1,40 @@
+body {
+    background-color: #2471A3;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+.title1 {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #BFC9CA;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.divTabla, .form1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-calcular {
+    display: none;
+}
+
+.div-calcular {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.cantVariables {
+    padding: 5px;
+}
